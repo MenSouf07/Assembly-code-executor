@@ -1,0 +1,3 @@
+rnd 2
+write 0
+halt

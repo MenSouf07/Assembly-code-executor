@@ -1,0 +1,7 @@
+read 4999
+read 3000
+push 4999
+push 3000
+op 2
+write 0
+halt

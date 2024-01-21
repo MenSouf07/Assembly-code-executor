@@ -1,0 +1,11 @@
+push# 0
+read 4999
+debut: push# 1
+op 0
+dup
+push 4999
+op 8
+jpz fin
+write 0
+jmp debut
+fin: halt

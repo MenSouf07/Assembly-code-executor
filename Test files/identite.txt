@@ -1,0 +1,5 @@
+read 4999
+push 4999
+dup
+write 1
+halt

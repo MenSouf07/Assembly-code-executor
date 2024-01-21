@@ -1,0 +1,6 @@
+read 102
+push 102
+dup
+op 0
+write 0
+halt
