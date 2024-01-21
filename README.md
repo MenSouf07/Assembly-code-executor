@@ -80,9 +80,9 @@ The <i>hexa.txt</i> file will contain the translation of the <i>pgm.txt</i> file
 
 ## AUTHORS & CONTACTS
 Don't hesitate to contact us for more information :
-* Mendel Souffir alias @MenSouf07
+* Mendel Souffir alias [@MenSouf07](https://github.com/MenSouf07)
   * mail : mendel.souffir@dauphine.eu / mendel.souffir07@gmail.com
   * [Linkedin](https://www.linkedin.com/in/mendel-souffir-1971252b0/)
-* Camille Jouanet alias @kmillee
+* Camille Jouanet alias [@kmillee](https://github.com/kmillee)
   * mail : camille.jouanet@dauphine.eu
   * [Linkedin](https://fr.linkedin.com/in/camillejouanet)
