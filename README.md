@@ -83,6 +83,6 @@ Don't hesitate to contact us for more information :
 * Mendel Souffir alias @MenSouf07
   * mail : mendel.souffir@dauphine.eu / mendel.souffir07@gmail.com
   * [Linkedin](https://www.linkedin.com/in/mendel-souffir-1971252b0/)
-* Camille Jouanet alias
+* Camille Jouanet alias @kmillee
   * mail : camille.jouanet@dauphine.eu
   * [Linkedin](https://fr.linkedin.com/in/camillejouanet)
