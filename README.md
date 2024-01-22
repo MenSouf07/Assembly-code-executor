@@ -2,8 +2,6 @@
 This C code allows you to transform a program written in language assembler (in one file) into a program written in machine language (named <i>hexa.txt</i>). It will then execute it instruction after instruction in order to simulate a fictitious machine called a stack machine.
 
 ## WARNING
-This program was compiled on Windows, although this should not affect its performance on other operating systems, it is recommended to compile the program on your own machine (see USAGE)
-
 ### Structure of supported files
 The files supported by the program are limited to the following structure:
 * one instruction per line
@@ -35,7 +33,7 @@ located at the top of the stack. Depending on the data, here are the possible op
 14: bitwise logical exclusive or,
 15: bitwise non-logical
 
-If you wish, you have short programs written in assembly language to test the simulator in the [“Test files”](https://github.com/MenSouf07/Assembly-code-executor/tree/main/Test%20files) folder (remember to look at the ["README_TestFiles.txt"](https://github.com/MenSouf07/Assembly-code-executor/blob/main/Test%20files/README_TestFiles.txt) file to find out what each test program does) .
+If you wish, you have short programs written in assembly language to test the simulator in the [“Test files”](https://github.com/MenSouf07/Assembly-code-executor/tree/main/Test_files) folder (remember to look at the ["README_TestFiles.txt"](https://github.com/MenSouf07/Assembly-code-executor/blob/main/Test_files/README_TestFiles.txt) file to find out what each test program does).
 
 
 ### Details
@@ -54,27 +52,30 @@ to write a halt instruction, for example.
 
 ## GETTING STARTED
 
-### Prerequisite
-* Have a C compiler
+### Prerequisites
+* Have a C compiler.
 
-### Installation
+### Installation & use
 To install Assembly-code-executor, follow these steps:
-Windows, Linux and macOS:
-Open the terminal 
+
+#### 1. Clone the Repository
+Open the terminal:
 ```sh
 git clone https://github.com/MenSouf07/Assembly-code-executor.git 
 cd Assembly-code-executor
 ```
-
-### Usage
-When using it for the first time, it is recommended to compile the program by writing to the terminal command (especially if you are working on a Linux system):
+#### 2. Compile the Program
+To compile the program, execute the following command in the terminal:
 ```sh
 $ gcc simulator.c -o simulator
 ```
-To run a <i>pgm.txt</i> source file, write to the terminal (if anything else is written to thereafter, they will be ignored.):
+To run a <i>pgm.txt</i> source file, write to the terminal ():
 ```sh
-$ ./simulateur pgm.txt
+$ ./simulator acces/path/pgm.txt        #Linux
+$ simulator.exe C:\acces\path\pgm.txt   #Windows
 ```
+Make sure to replace "access/path/pgm.txt" (respectively "C:\access\path\pgm.tx") with the actual path of your <i>pgm.txt</i> file.
+
 The <i>hexa.txt</i> file will contain the translation of the <i>pgm.txt</i> file into machine code. the execution when it will be done in the terminal
 
 
