@@ -67,12 +67,12 @@ cd Assembly-code-executor
 #### 2. Compile the Program
 To compile the program, execute the following command in the terminal:
 ```sh
-$ gcc simulator.c -o simulator
+gcc simulator.c -o simulator
 ```
 To run a <i>pgm.txt</i> source file, write to the terminal ():
 ```sh
-$ ./simulator acces/path/pgm.txt        #Linux
-$ simulator.exe C:\acces\path\pgm.txt   #Windows
+./simulator acces/path/pgm.txt        #Linux
+simulator.exe C:\acces\path\pgm.txt   #Windows
 ```
 Make sure to replace "access/path/pgm.txt" (respectively "C:\access\path\pgm.tx") with the actual path of your <i>pgm.txt</i> file.
 
