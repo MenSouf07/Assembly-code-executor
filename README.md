@@ -16,22 +16,22 @@ Here are the different supported instructions with their machine code given in p
 
 The “op” machine instruction allows you to perform an arithmetic or logical operation on the data.
 located at the top of the stack. Depending on the data, here are the possible operations :
-* 0: adds the two values at the top,
-1: subtraction,
-2: multiplication,
-3: integer division,
-4: modulo,
-5: reverses the value at the top of the stack,
-6: equality test,
-7: inequality test,
-8: test >,
-9: test ≥,
-10: test <,
-11: test ≤,
-12: and bit-by-bit logic,
-13: or bit-by-bit logic,
-14: bitwise logical exclusive or,
-15: bitwise non-logical
+* (0) adds the two values at the top,
+(1) subtraction,
+(2) multiplication,
+(3) integer division,
+(4) modulo,
+(5) reverses the value at the top of the stack,
+(6) equality test,
+(7) inequality test,
+(8) test >,
+(9) test ≥,
+(10) test <,
+(11) test ≤,
+(12) and bit-by-bit logic,
+(13) or bit-by-bit logic,
+(14) bitwise logical exclusive or,
+(15) bitwise non-logical
 
 If you wish, you have short programs written in assembly language to test the simulator in the [“Test files”](https://github.com/MenSouf07/Assembly-code-executor/tree/main/Test_files) folder (remember to look at the ["README_TestFiles.txt"](https://github.com/MenSouf07/Assembly-code-executor/blob/main/Test_files/README_TestFiles.txt) file to find out what each test program does).
 
